@@ -1,0 +1,16 @@
+{
+  "name": "Copy URLs",
+  "description": "Copy all open tabs in Chrome/Chromium to clipboard",
+  "version": "0.1",
+  "background": {
+    "scripts": ["js/background.js"]
+  },
+  "permissions": [
+    "tabs"
+  ],
+  "browser_action": {
+      "default_title": "Copy URLs",
+      "default_icon": "img/logo.png"
+  },
+  "manifest_version": 2
+}
